@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tidbits.DateTimeProvider", "Tidbits.DateTimeProvider\Tidbits.DateTimeProvider.csproj", "{40DB6C3A-6978-45CC-A532-F355C145559B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C685729D-F2A6-42A8-A34F-2090E5198934}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeProviderTests", "Tests\DateTimeProviderTests.csproj", "{0B14B221-5C17-455F-A35E-3A6E5B50C320}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40DB6C3A-6978-45CC-A532-F355C145559B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40DB6C3A-6978-45CC-A532-F355C145559B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40DB6C3A-6978-45CC-A532-F355C145559B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40DB6C3A-6978-45CC-A532-F355C145559B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B14B221-5C17-455F-A35E-3A6E5B50C320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B14B221-5C17-455F-A35E-3A6E5B50C320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B14B221-5C17-455F-A35E-3A6E5B50C320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B14B221-5C17-455F-A35E-3A6E5B50C320}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D24C382A-ABEF-46F6-92BB-C743DDFC4A50}
+	EndGlobalSection
+EndGlobal
